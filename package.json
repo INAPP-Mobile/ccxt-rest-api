@@ -1,0 +1,16 @@
+{
+  "name": "ccxt-rest-api",
+  "version": "1.0.0",
+  "description": "REST API server for CCXT cryptocurrency exchange library",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "ccxt": "^4.4.0",
+    "express": "^4.21.0"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

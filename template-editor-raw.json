@@ -1,0 +1,6 @@
+{
+  "PORT": {
+    "value": "8080",
+    "description": "HTTP server port. Must stay 8080 — it matches the Railway domain target port configured in this template."
+  }
+}
