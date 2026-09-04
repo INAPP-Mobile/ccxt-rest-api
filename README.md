@@ -29,7 +29,7 @@ curl "https://your-app.up.railway.app/ohlcv/binance/BTC/USDT?timeframe=1d&limit=
 
 ## Deploy
 
-[![Deploy to Railway](https://railway.app/button.svg)](https://railway.com/deploy/ccxt)
+[![Deploy to Railway](https://railway.app/button.svg)](https://railway.com/deploy/FweCfB)
 
 ## Environment Variables
 
@@ -40,3 +40,38 @@ curl "https://your-app.up.railway.app/ohlcv/binance/BTC/USDT?timeframe=1d&limit=
 ## License
 
 MIT
+
+---
+
+# Deploy and Host
+
+Deploy this template on Railway with one click. Railway provides compute, TLS at the edge, and a public URL. The service restarts automatically on failures.
+
+## About Hosting
+
+This template runs as a single container with no external dependencies. It's a stateless REST API that proxies requests to public cryptocurrency exchange APIs in real-time — no database, no persistent storage, no volumes required.
+
+## Why Deploy
+
+- **One-click deploy** — No configuration, no setup, just deploy
+- **Zero external dependencies** — Single container, no database needed
+- **Automatic HTTPS** — Railway provisions TLS certificates automatically
+- **Self-healing** — Automatic restarts on failure
+- **Stateless** — No data to manage, no backups to worry about
+
+## Common Use Cases
+
+- Cryptocurrency price tracking dashboard backend
+- Trading bot data feed
+- Exchange market data aggregation
+- Personal crypto portfolio API
+- Lightweight deployment on Railway's starter resources
+
+## Dependencies for
+
+### Deployment Dependencies
+
+CCXT REST API requires no external dependencies. It connects directly to public exchange APIs over HTTPS.
+
+- [Railway Account](https://railway.app) — hosting platform
+- No external database, cache, or message queue required
